@@ -147,6 +147,8 @@ section a{ /* boton que baja a la otro section*/
 }
 
 /*Estilos de articulos*/
+
+
 .info {
     margin-top: 35px;
 
@@ -158,8 +160,15 @@ section a{ /* boton que baja a la otro section*/
     padding: 15px;
     margin-bottom: 30px;
     margin-top:80px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px   #111 ;
+    transition-delay: 0.3ms;
 
+}
 
+.info__columna:hover{
+    box-shadow: 1px 1px 4px #aaa ;
 }
 
 .photo {
